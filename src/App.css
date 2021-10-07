@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+
+.navbar{
+  padding: 1% 1%;
+  background-color:black;
+ 
+  
+}
+.nav-link{
+  transition: 0.5s;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 10px;
+  font-size: 20px;
+ 
+}
+ 
+.nav-link:hover{
+  transform: scale(1.1);
+}
+.navbar-toggler-icon{
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.Header-Bg{
+  background-image: url('./Components/Images/HeaderBg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+.Header-title{
+  position: absolute;
+  text-align: center;
+  color:black;
+ padding: 5% 8%;
+}
+.Header-title p{
+  font-size: 20px;
+}
+.Header-btn{
+  margin: 20px 10px;
+  transition: 0.5s;
+}
+.Header-btn:hover{
+  transform: scale(1.1);
+  
+}
+.HelpNum{
+  font-size: 35px;
+}
+
+.Products{
+  background: #1f2235;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 4% 6%;
+}
+.card{
+  width: 21%;
+  height:400px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  border:1px solid white;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+.images{
+  width: 100%;
+  max-width:400px;
+  height:250px;
+}
+.card:hover{
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+  transform: scale(1.1);
+}
+
+.row-HomeAnother{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 1% 2%;
+
+}
+.About-Hospital{
+  margin-top: 0px;
+}
+.colum-6{
+  width: 42%;
+  overflow: hidden;
+}
+
+.HomeAnother-img{
+  width: 100%;
+  max-width: 700px;
+  height: 400px;
+}
+.rowHomeTop{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+ 
+}
+
+.colum-4{
+  width: 40%;
+  overflow: hidden;
+  margin-left: 0px;
+  padding: 20px 20px;
+  color: white;
+
+}
+.btnHomeFooter{
+  padding: 10px 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.bg:hover{
+  background: tomato;
+}
+
+.About-bg{
+  background-color: rgb(39, 38, 38);
+  padding: 1% 1%;
+}
+.About-content{
+  color: white;
+  overflow: hidden;
+  padding: 2% 3%;
+}
+.content-left{
+  padding: 7% 8%;
+  overflow: hidden;
+
+}
+.content-right{
+  padding: 6% 7%;
+  overflow: hidden
+}
+.doctor-bg{
+  background-color: rgb(29, 25, 25);
+}
+.doctor-content{
+  color: white;
+  overflow: hidden;
+}
+.doctorlist{
+  padding-top: 30px;
+  color: rgb(240, 104, 41);
+}
+
+.table-content{
+  padding: 3% 4%;
+  overflow: hidden;
+}
+.paragraph{
+  margin-top: 40px;
+  overflow: hidden;
+}
+.container{
+  padding: 3% 4%;
+  color: aliceblue;
+}
+.news-bg{
+  background-color: rgb(46, 43, 43);
+}
+.coronanews-bg{
+  background-color: rgb(192, 190, 187);
+}
+@media screen and (max-width:900px) {
+  .card{
+    width: 43%;
+  }
+  .colum-6{
+    width: 90%;
+    padding: 20px 20px;
+  }
+  
+}
+
+@media screen and (max-width:600px) {
+  .card{
+    width: 90%;
+  }
+  .colum-6{
+    width: 90%;
+    padding: 20px 20px;
+  }
+  .colum-4{
+    width:100%
+  }
+  .paragraph{
+    text-align: left;
+  }
+ 
+  
+}
