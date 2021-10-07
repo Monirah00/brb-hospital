@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/brb-hospital/static/css/main.4a507e37.chunk.css",
+    "main.js": "/brb-hospital/static/js/main.3e8c4eb7.chunk.js",
+    "main.js.map": "/brb-hospital/static/js/main.3e8c4eb7.chunk.js.map",
+    "runtime-main.js": "/brb-hospital/static/js/runtime-main.5d0da3e2.js",
+    "runtime-main.js.map": "/brb-hospital/static/js/runtime-main.5d0da3e2.js.map",
+    "static/css/2.94d102f3.chunk.css": "/brb-hospital/static/css/2.94d102f3.chunk.css",
+    "static/js/2.0dfb0b80.chunk.js": "/brb-hospital/static/js/2.0dfb0b80.chunk.js",
+    "static/js/2.0dfb0b80.chunk.js.map": "/brb-hospital/static/js/2.0dfb0b80.chunk.js.map",
+    "static/js/3.7e7ca8eb.chunk.js": "/brb-hospital/static/js/3.7e7ca8eb.chunk.js",
+    "static/js/3.7e7ca8eb.chunk.js.map": "/brb-hospital/static/js/3.7e7ca8eb.chunk.js.map",
+    "index.html": "/brb-hospital/index.html",
+    "static/css/2.94d102f3.chunk.css.map": "/brb-hospital/static/css/2.94d102f3.chunk.css.map",
+    "static/css/main.4a507e37.chunk.css.map": "/brb-hospital/static/css/main.4a507e37.chunk.css.map",
+    "static/js/2.0dfb0b80.chunk.js.LICENSE.txt": "/brb-hospital/static/js/2.0dfb0b80.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/brb-hospital/static/media/HeaderBg.9307d642.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d0da3e2.js",
+    "static/css/2.94d102f3.chunk.css",
+    "static/js/2.0dfb0b80.chunk.js",
+    "static/css/main.4a507e37.chunk.css",
+    "static/js/main.3e8c4eb7.chunk.js"
+  ]
+}
